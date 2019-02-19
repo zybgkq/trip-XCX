@@ -1,0 +1,24 @@
+<view class='page'>
+  <view class='page__hd'>
+    <image src='../../image/logo.png' class='logo'></image>
+  </view>
+  <view class='page__bd'>
+    <button class="weui-btn" type="primary" bindtap="phoneLogin">手机号一键登录</button>
+    <modal title="携程订酒店机票火车跑汽车票" confirm-text="允许" cancel-text="拒绝" hidden="{{modelHidden}}" bindconfirm="allow" bindcancel="refuse" class="model">
+      <block wx:for="{{phoneModel}}">
+        <text>{{item}}</text>
+      </block>
+    </modal>
+    <button class="weui-btn" type="primary">微信账号登录</button>
+     <button class="weui-btn" type="default" plain="true">登录</button>
+  </view>
+  <!-- 底部 -->
+
+   <view class="weui-footer">
+      <view class="weui-footer__links">
+         <view class="weui-footer__text">登录即代表您同意我们的</view>
+         <navigator url="" class='weui-footer__link'>服务协议</navigator>
+          <navigator url="" class='weui-footer__link'>隐私协议</navigator>
+      </view>
+    <button class="weui-btn mini-btn mini" size="mini" type="default" plain="true">添加邀请码</button>  </view>
+</view>

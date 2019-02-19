@@ -1,0 +1,72 @@
+/* pages/login/login.wxss */
+.page__hd{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  width: 50%;
+  height: 60%;
+}
+.page__bd{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.weui-btn{
+  width: 90%;
+}
+.weui-btn:nth-child(1){
+  background-color: #4363d4;
+}
+.weui-btn:nth-child(2){
+  background-color:#21a025;
+}
+.weui-footer{
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+}
+.weui-footer__links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.weui-footer__link{
+  border: none;
+}
+.mini{
+  width: 32%;
+  height: 30px;
+}
+.model text:first-child {
+  display:flex;
+  font-size: 26px;
+  color: black;
+  border-bottom: 1px solid #eee;
+  margin: 10px 0;
+  }
+.model text:nth-child(2) {
+  font-size: 16px;
+  color: black;
+}
+.model text:nth-child(3) {
+  font-size: 12px;
+  padding-left: 10px;
+  align-items: center;
+}
+.model text:nth-child(4) {
+  display:flex;
+  font-size: 13px;
+  color: blue;
+  margin: 10px 0; 
+}
+.promptShow{
+  display: block;
+}
+.promptHidden{
+  display: none;
+}

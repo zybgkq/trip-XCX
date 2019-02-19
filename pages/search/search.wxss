@@ -1,0 +1,22 @@
+/* pages/search/search.wxss */
+.page__hd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.search{
+  width: 70%;
+  border-radius: 15px;
+  background-color: #eeee;
+  height: 30px;
+  margin: 20rpx 10px;
+  padding-left: 20px;
+}
+.cancel{
+  display: flex;
+  width: 20%;
+  height: 30px;
+  font-size: 17px;
+  color: #888383;
+}

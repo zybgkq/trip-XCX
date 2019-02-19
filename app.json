@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/search/search",
+    "pages/trip/trip",
+    "pages/mySettings/mySettings",
+    "pages/travelPhoto/travelPhoto",
+    "pages/destination/destination",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "携程旅行",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor":"#4395ff",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/xiecheng.png",
+      "selectedIconPath": "icons/xiecheng_active.png"
+    },
+    {
+      "pagePath": "pages/destination/destination",
+      "text": "目的地",
+      "iconPath": "icons/diqiu.png",
+      "selectedIconPath": "icons/diqiu_active.png"
+    },
+    {
+      "pagePath": "pages/travelPhoto/travelPhoto",
+      "text": "旅拍",
+      "iconPath": "icons/zhaoxiangji.png",
+      "selectedIconPath": "icons/zhaoxiangji_active.png"
+    },
+    {
+      "pagePath": "pages/trip/trip",
+      "text": "行程",
+      "iconPath": "icons/rili.png",
+      "selectedIconPath": "icons/rili_active.png"
+    },
+    {
+      "pagePath": "pages/mySettings/mySettings",
+      "text": "我的",
+      "iconPath": "icons/wode.png",
+      "selectedIconPath": "icons/wode_active.png"
+    }
+    ]
+  }
+}

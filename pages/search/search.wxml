@@ -1,0 +1,6 @@
+<view class='page'>
+  <view class='page__hd'>
+    <input placeholder="搜索目的地/交通/景点/酒店" class='search' placeholder-class='left' name='search' focus="{{focus}}" type='text' confirm-type="search"/>
+    <text class="cancel" bindtap='index'>取消</text>
+  </view>
+</view>

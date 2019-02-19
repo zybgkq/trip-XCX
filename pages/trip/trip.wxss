@@ -1,0 +1,29 @@
+/* pages/trip/trip.wxss */
+.page__hd{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.weui-msg__icon-area{
+  padding-top: 60rpx;
+}
+.icon-xiangdao{
+  font-size: 75px;
+  color:orange;
+}
+.weui-btn-area{
+  margin-left: 0;
+  position: fixed;
+  bottom: 30rpx;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.weui-btn{
+  background-color: #4395ff;
+  width:80%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius:60rpx;
+  color: white;
+}

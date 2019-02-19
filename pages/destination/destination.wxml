@@ -1,0 +1,31 @@
+<view class="page">
+  <view class='page__hd'>
+    <image src='../../image/ms.jpg' class='header'/>
+    <text class="header-ms">眉山</text>
+    <text class="header-ms-y">MEI|SHAN</text>
+  </view>
+  <view class='page_bd'>
+         <view class="section">
+        <view class="section-item">
+            <icon class='iconfont icon-jingdian'></icon>
+           <text>景点</text>
+        </view>
+        <view class="section-item">
+            <icon class='iconfont icon-hangli'></icon>
+            <text>酒店</text>
+        </view>
+        <view class="section-item">
+            <icon class='iconfont icon-xiangdao'></icon> 
+            <text>跟团游</text>
+        </view>
+         <view class="section-item">
+           <icon class='iconfont icon-qichepiao'></icon>
+           <text>汽车票</text>
+        </view>
+         <view class="section-item">
+            <icon class='iconfont icon-rili1'></icon> 
+            <text>游记</text>
+        </view>
+      </view>
+  </view>
+</view>

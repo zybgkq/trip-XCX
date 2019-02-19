@@ -1,0 +1,41 @@
+<view class='page'>
+  <view class='page__hd'>
+    <text class="page__desc">登录携程，开启旅程</text>
+    <navigator class="reg-In" url='../login/login'>登录/注册</navigator >
+  </view>
+      <view class='page_bd'>
+         <view class="section">
+        <view class="section-item">
+            <icon class='iconfont icon-jingdian'></icon>
+           <text>全部订单</text>
+        </view>
+        <view class="section-item">
+            <icon class='iconfont icon-hangli'></icon>
+            <text>待付款</text>
+        </view>
+        <view class="section-item">
+            <icon class='iconfont icon-xiangdao'></icon> 
+            <text>未出行</text>
+        </view>
+      </view>
+      <!-- 优惠券跳转 -->
+       <view class="weui-cells weui-cells_after-title">
+            <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">优惠券</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">我的特权</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+             <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">一生旅行</view>
+               <view class="weui-cell__ft weui-cell__ft_in-access">查看我的足迹</view>
+            </navigator>
+        </view>
+        <view class="weui-msg__desc">
+          <icon class='iconfont icon-weibiaoti_hover'></icon>
+          <text>联系客服</text>
+        </view>
+  </view>
+</view>

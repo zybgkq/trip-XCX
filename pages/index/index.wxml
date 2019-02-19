@@ -1,0 +1,109 @@
+<view class='page'>
+  <view class='page__hd'>
+      <input placeholder="搜索目的地/交通/景点/酒店" class='search' placeholder-class='left' name='search' bindtap='search'/>
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}">
+          <block wx:for="{{imageUrl}}" wx:key="key">
+              <swiper-item>
+                <image src="{{item}}" class="slide-image" />
+              </swiper-item>
+          </block>
+      </swiper>
+  </view>
+  <view class="page__bd">
+     <view class="section">
+        <view class="section-item">
+            <icon class='iconfont icon-menpiao'></icon>
+           <text>景点门票</text>
+        </view>
+        <view class="section-item">
+            <icon class='iconfont icon-zhoubianyou'></icon>
+            <text>周边游</text>
+        </view>
+        <view class="section-item">
+            <icon class='iconfont icon-meishi'></icon> 
+            <text>美食林</text>
+        </view>
+         <view class="section-item">
+           <icon class='iconfont icon-wenquan'></icon>
+           <text>温泉度假</text>
+        </view>
+         <view class="section-item">
+            <icon class='iconfont icon-gonglve'></icon> 
+            <text>攻略</text>
+        </view>
+      </view>
+      <view class='main'>
+          <view class="main-item">
+            <view class='hotel'><text>酒店</text></view>
+            <view class='hotel'><text>机票</text></view>
+            <view class='hotel'><text>火车票·抢票</text></view>
+          </view>
+          <view class="main-item">
+          <!-- homestay民宿 -->
+            <view class='homestay'><text>民宿</text></view>
+            <view class='homestay'><text>汽车票·船票</text></view>
+            <view class='homestay'><text>专车·租车</text></view>
+          </view>
+          <view class="main-item">
+          <!-- traffic交通 -->
+            <view class='traffic'><text>交通·酒店</text></view>
+            <view class='traffic'><text>跟团游</text></view>
+            <view class='traffic'><text>高铁游</text></view>
+          </view>
+      </view>
+      <view class='main-nav'>
+          <view class="main-nav-section">
+            <view class="section-item">
+                <icon class='iconfont icon-menpiao'></icon>
+              <text>一日游</text>
+            </view>
+            <view class="section-item">
+                <icon class='iconfont icon-zhoubianyou'></icon>
+                <text>周边游</text>
+            </view>
+            <view class="section-item">
+                <icon class='iconfont icon-meishi'></icon> 
+                <text>美食林</text>
+            </view>
+            <view class="section-item">
+              <icon class='iconfont icon-wenquan'></icon>
+              <text>温泉度假</text>
+            </view>
+            <view class="section-item">
+                <icon class='iconfont icon-gonglve'></icon> 
+                <text>攻略</text>
+            </view>
+          </view>
+           <view class="main-nav-section">
+            <view class="section-item">
+                <icon class='iconfont icon-menpiao'></icon>
+              <text>景点门票</text>
+            </view>
+            <view class="section-item">
+                <icon class='iconfont icon-zhoubianyou'></icon>
+                <text>周边游</text>
+            </view>
+            <view class="section-item">
+                <icon class='iconfont icon-meishi'></icon> 
+                <text>美食林</text>
+            </view>
+            <view class="section-item">
+              <icon class='iconfont icon-wenquan'></icon>
+              <text>温泉度假</text>
+            </view>
+            <view class="section-item">
+                <icon class='iconfont icon-gonglve'></icon> 
+                <text>攻略</text>
+            </view>
+          </view>
+      </view>
+      <view class='preferential'>
+        <view class="preferential-title">超值特惠</view>
+        <view class="preferential-wrp">
+          <view class="preferential-item">1</view>
+          <view class="preferential-item">2</view>
+          <view class="preferential-item">3</view>
+        </view>
+      </view>
+  </view>
+</view>

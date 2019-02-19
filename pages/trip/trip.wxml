@@ -1,0 +1,17 @@
+<view class='page'>
+  <view class='page__hd'>
+      <view class="weui-msg__icon-area">
+        <icon class='iconfont icon-xiangdao' size="93"></icon>
+      </view>
+      <view class="weui-msg__text-area">
+          <view class="weui-msg__desc">人的一生中至少要有两次冲动</view>
+          <view class="weui-msg__desc">一次为奋不顾身的爱情</view>
+          <view class="weui-msg__desc">一次为说走就走的旅行</view>
+          <text class="weui-msg__desc">——</text>
+          <view class='weui-msg__desc'>Andy Andrews</view>
+      </view>
+       <view class="weui-btn-area">
+          <navigator class="weui-btn" url='../login/login'>登录携程，开启旅程</navigator>
+        </view>
+  </view>
+</view>
